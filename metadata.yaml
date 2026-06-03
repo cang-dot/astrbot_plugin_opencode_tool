@@ -1,0 +1,9 @@
+name: astrbot_plugin_opencode_tool
+display_name: OpenCode 调用工具
+version: 2.0.1
+author: opencode
+homepage: https://github.com/cang-dot/astrbot_plugin_opencode_tool
+description: 让 AstrBot 的 Agent 能够主动调用 OpenCode 执行开发任务
+short_desc: Agent 可主动调用的 OpenCode 工具
+logo: logo.png
+astrbot_version: ">=4.16"

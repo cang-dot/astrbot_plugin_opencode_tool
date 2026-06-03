@@ -1,0 +1,32 @@
+{
+  "server_port": {
+    "description": "OpenCode 服务器端口",
+    "hint": "opencode serve 监听的端口号",
+    "type": "int",
+    "default": 9501
+  },
+  "model": {
+    "description": "OpenCode 使用的模型",
+    "hint": "格式: provider/model-id",
+    "type": "string",
+    "default": "opencode/deepseek-v4-flash-free"
+  },
+  "timeout": {
+    "description": "任务超时时间（秒）",
+    "hint": "单个任务的最大执行时间",
+    "type": "int",
+    "default": 300
+  },
+  "batch_size": {
+    "description": "消息聚合条数",
+    "hint": "累积多少条消息后一次性发送给用户",
+    "type": "int",
+    "default": 3
+  },
+  "batch_timeout": {
+    "description": "消息聚合超时（秒）",
+    "hint": "超过此时间未凑够条数也会发送",
+    "type": "int",
+    "default": 300
+  }
+}
